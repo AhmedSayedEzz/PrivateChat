@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ahmedsayed.privatechat.SettingsActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/settings_image" />
+
+    <TextView
+        android:text="Display Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:id="@+id/setting_display_name"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="236dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Hi there ,i'm useing Privatechat app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/setting_status"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/setting_display_name"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:text="Change Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_img_btn"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/setting_status"
+        android:layout_centerHorizontal="true" />
+    <Button
+    android:text="Change Status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/setting_status_btn"
+    android:layout_below="@+id/setting_img_btn"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="24dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/colorAccent"
+    android:backgroundTint="@color/colorAccent"
+    android:textColor="@android:color/white"
+    android:textSize="18sp" />
+
+</RelativeLayout>

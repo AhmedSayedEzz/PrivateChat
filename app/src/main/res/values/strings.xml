@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PrivateChat</string>
+    <string name="need_a_new_account">Need a new account?</string>
+    <string name="dispaly_name">dispaly name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="log_out">Log Out</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="all_users">All Users</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
